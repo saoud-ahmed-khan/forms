@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +17,35 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.regestration-form
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  border: 2px solid black;
+  padding: 30px;
+  }
+input{
+  border-radius: 4px;
+  height: 50px;
+  outline: none;
+  font-size: large;
+  border: none;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  margin-top: 20px;
+
+}
+button{
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: large;
+  height: 50px;
+  background-color: transparent;
+  
 }
 
 .App-link {
