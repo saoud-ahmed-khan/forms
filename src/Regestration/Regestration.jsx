@@ -28,7 +28,7 @@ export const reducer = (state,action)=>
     return (
         <>
            <form className="regestration-form">
-               <input type="text" name="name" onChange={()=>{dispatch({type:"name", payload:{ } })}} placeholder="Enter your name "  />
+               <input type="text" name="name" onChange={(e)=>{dispatch({type:e.target.name, payload:e.target.value })}} placeholder="Enter your name "  />
                <input type="email" name="email"  placeholder="Enter your email "  />
                <input type="text" name="gender" placeholder="Enter your gender "  />
                <input type="text" name="DOB" placeholder="age: dd/mm/yy"  />
